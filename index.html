@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang=zh-CN>
+<head>
+<meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge">
+<title>情侣飞行棋在线版-趣搜呀</title>
+<meta name="Keywords" content="情侣飞行棋游戏在线玩,情侣飞行棋私秘版在线玩" />
+<meta name="description" content="欢迎来到趣搜呀-情侣飞行棋！在这里，你可以在线玩情侣飞行棋游戏，并体验丰富多样的游戏模式。通过与你的爱人一起合作前进，通过策略性的掷骰子和选择移动方式，完成棋盘上的飞行任务。促进情侣之间的互动，加深感情的同时，还能享受游戏的乐趣。快来尝试一下，与你的另一半一起度过愉快的时光吧！" />
+<script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script>
+
+<link rel=stylesheet href=./static/index.63b34199.css>
+
+<link rel="stylesheet" href="css/tc.css" />
+<script src="css/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="layer"></div>
+		<div id="globalAd">
+			<div id='hero-img' style="background-color: #1a95ff;background: linear-gradient(to left, #5dadf3 0, #4583ca 100%);">
+			</div>
+			<div id='profile-img'>
+				<img src="css/bg.jpeg" />
+			</div>
+			<div id='content'>
+				<p style="font-size: 16px;font-weight: bold;">趣搜呀</p>
+				<p>趣搜呀飞行棋提示你</p>
+				<p>最新版本三合一</p>
+				<p>情侣飞行棋、真心话大冒险，情趣掷骰子</p>
+				<p>更加有意思！冲啊啊啊啊啊！</p>
+				<p>官方导航【趣搜呀】</p>
+				<p><br></p>
+				<a onClick="closeGlobalAd();" class="btn btn-default" rel='nofollow'>朕已阅</a>
+				<a href="https://qusoya.com/sites/10987.html" onClick="redirectUrlToActive();" class="btn btn-default" rel='nofollow'>点击访问</a>
+			</div>
+		</div>
+
+		<script>
+			jQuery.cookie = function(name, value, options) {
+				if(typeof value != 'undefined') {
+					options = options || {};
+					if(value === null) {
+						value = '';
+						options.expires = -1;
+					}
+					var expires = '';
+					if(options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+						var date;
+						if(typeof options.expires == 'number') {
+							date = new Date();
+							var totalTime = 24 * 3600;
+							var hour = date.getHours();
+							var minutes = date.getMinutes();
+							var seconds = date.getSeconds();
+							var pastTime = 3600 * hour + 60 * minutes + seconds;
+							var leftTime = totalTime - pastTime;
+							date.setTime(date.getTime() + (options.expires * leftTime * 1000));
+						} else {
+							date = options.expires;
+						}
+						expires = '; expires=' + date.toUTCString();
+					}
+					var path = options.path ? '; path=' + (options.path) : '';
+					var domain = options.domain ? '; domain=' + (options.domain) : '';
+					var secure = options.secure ? '; secure' : '';
+					document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+				} else {
+					var cookieValue = null;
+					if(document.cookie && document.cookie != '') {
+						var cookies = document.cookie.split(';');
+						for(var i = 0; i < cookies.length; i++) {
+							var cookie = jQuery.trim(cookies[i]);
+							if(cookie.substring(0, name.length + 1) == (name + '=')) {
+								cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+								break;
+							}
+						}
+					}
+					return cookieValue;
+				}
+			};
+			$(function() {
+				var COOKIE_NAME = "erdangjiade";
+				if($.cookie(COOKIE_NAME)) {
+					$(".layer").hide();
+					$("#globalAd").hide();
+				} else {
+					var erdangjiadeH = $(window).height();
+					var erdangjiadeW = $(window).width();
+					$(".layer").show();
+					$("#globalAd").css({
+						'top': erdangjiadeH / 2 - $("#globalAd").height() / 2,
+						'left': erdangjiadeW / 2 - $("#globalAd").width() / 2
+					});
+					$("#globalAd").slideDown(300, function() {
+						setTimeout("closeGloableAd()", '300000');
+					});
+					$.cookie(COOKIE_NAME, "erdangjiade", {
+						path: '/',
+						expires: 1
+					});
+				}
+			});
+
+			function closeGlobalAd() {
+				$('#globalAd').hide();
+				$('.layer').hide();
+
+			}
+
+			function redirectUrlToActive() {
+				$('#globalAd').hide();
+				$('.layer').hide();
+			}
+		</script>
+
+<noscript><strong>Please enable JavaScript to continue.</strong></noscript>
+<div id=app></div>
+<script src=./static/js/chunk-vendors.e4450f0a.js></script>
+<script src=./static/js/index.d2dcdf5b.js></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fd10db7ed23f57b034b43a763dbf9b45";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>
